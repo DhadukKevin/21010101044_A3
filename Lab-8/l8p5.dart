@@ -17,6 +17,11 @@ class _L8p5State extends State<L8p5> {
       body: Column(
         children: [
           Container(
+            margin: EdgeInsets.all(10),
+            decoration: BoxDecoration(
+              border: Border.all(),
+              borderRadius: BorderRadius.all(Radius.circular(20)),
+            ),
             child: Center(
               child: Text(txt),
             ),
